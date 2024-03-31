@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://chanaka:ccJF77cF4niPFapi@cluster0.id2qofj.mongodb.net/mark_management_system?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://<Username>:<Password>@cluster0.id2qofj.mongodb.net/mark_management_system?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
